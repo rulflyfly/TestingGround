@@ -259,6 +259,7 @@ void ATestingGroundCharacter::MoveForward(float Value)
 	if (Value != 0.0f)
 	{
 		// add movement in that direction
+        MakeNoise(10.f, this, GetActorLocation(), 100.f, TEXT("Footsteps"));
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
 }
@@ -268,6 +269,7 @@ void ATestingGroundCharacter::MoveRight(float Value)
 	if (Value != 0.0f)
 	{
 		// add movement in that direction
+        MakeNoise(10.f, this, GetActorLocation(), 100.f, TEXT("Footsteps"));
 		AddMovementInput(GetActorRightVector(), Value);
 	}
 }
