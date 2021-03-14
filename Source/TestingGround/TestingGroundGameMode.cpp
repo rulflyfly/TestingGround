@@ -2,14 +2,14 @@
 
 #include "TestingGroundGameMode.h"
 #include "TestingGroundHUD.h"
-#include "TestingGroundCharacter.h"
+#include "Player/MainCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ATestingGroundGameMode::ATestingGroundGameMode()
 	: Super()
 {
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/Player/Blueprints/FirstPersonCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/Player/Blueprints/MainCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
