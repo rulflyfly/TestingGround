@@ -4,13 +4,18 @@
 #include "SetFocus.h"
 #include "AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
+//#include "Kismet/GameplayStatics.h"
+//#include "Engine/World.h"
 
 EBTNodeResult::Type USetFocus::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
     UBlackboardComponent* BlackboardComp = OwnerComp.GetBlackboardComponent();
-    FVector FocusLocation = BlackboardComp->GetValueAsVector(FocusLocationKey.SelectedKeyName);
+    //AActor* FocusActor = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+    //BlackboardComp->SetValueAsObject(FocusActorKey.SelectedKeyName, FocusActor);
     
-    OwnerComp.GetAIOwner()->K2_SetFocalPoint(FocusLocation);
+    AActor* FocusActor = Cast<AActor>(BlackboardComp->GetValueAsObject(FocusActorKey.SelectedKeyName));
+    
+    OwnerComp.GetAIOwner()->K2_SetFocus(FocusActor);
     
     return EBTNodeResult::Succeeded;
 }

@@ -18,5 +18,5 @@ class TESTINGGROUND_API USetFocus : public UBTTaskNode
     
 protected:
     UPROPERTY(EditAnywhere, Category = Blackboard)
-    struct FBlackboardKeySelector FocusLocationKey;
+    struct FBlackboardKeySelector FocusActorKey;
 };
