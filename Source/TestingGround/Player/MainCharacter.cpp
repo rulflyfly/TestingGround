@@ -62,8 +62,7 @@ void AMainCharacter::BeginPlay()
     {
         FActorSpawnParameters SpawnInfo;
         Gun = GetWorld()->SpawnActor<AGun>(GunClass, FVector(0), FRotator(0), SpawnInfo);
-        Gun->Owner = this;
-        Gun->OwnerMesh = Mesh1P;
+        Gun->AnimInstance = Mesh1P->GetAnimInstance();
         
         USkeletalMeshSocket* GripPoint = Mesh1P->SkeletalMesh->FindSocket(TEXT("GripPoint"));
         if (GripPoint) GripPoint->AttachActor(Gun, Mesh1P);

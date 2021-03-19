@@ -52,7 +52,7 @@ void AGun::OnFire()
         if (World != nullptr)
         {
             
-            const FRotator SpawnRotation = Owner->GetControlRotation();
+            const FRotator SpawnRotation = FP_MuzzleLocation->GetComponentRotation();
             // MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
             const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
@@ -73,13 +73,8 @@ void AGun::OnFire()
     }
 
     // try and play a firing animation if specified
-    if (OwnerMesh != nullptr && FireAnimation != nullptr)
+    if (FireAnimation != nullptr && AnimInstance != nullptr)
     {
-        // Get the animation object for the arms mesh
-        UAnimInstance* AnimInstance = OwnerMesh->GetAnimInstance();
-        if (AnimInstance != nullptr)
-        {
-            AnimInstance->Montage_Play(FireAnimation, 1.f);
-        }
+        AnimInstance->Montage_Play(FireAnimation, 1.f);
     }
 }

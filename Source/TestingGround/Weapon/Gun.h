@@ -39,9 +39,8 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
     UAnimMontage* FireAnimation;
     
-    class USkeletalMeshComponent* OwnerMesh;
-    
-    class APawn* Owner;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+    class UAnimInstance* AnimInstance;
 
 protected:
 	// Called when the game starts or when spawned
@@ -52,6 +51,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
     
     /** Fires a projectile. */
+    UFUNCTION(BlueprintCallable)
     void OnFire();
 
 };
