@@ -11,13 +11,6 @@ class AEnemy : public ACharacter
 {
 	GENERATED_BODY()
 
-	/** Camera boom positioning the camera behind the character */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* CameraBoom;
-
-	/** Follow camera */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* FollowCamera;
 public:
 	AEnemy();
 
@@ -28,6 +21,25 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+    
+    /** FP PLAYER PARTS */
+    
+    /** Pawn mesh: 1st person view (arms; seen only by self) */
+    UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
+    USkeletalMeshComponent* Mesh1P;
+
+
+    /** First person camera */
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+    class UCameraComponent* FirstPersonCameraComponent;
+    
+    /** GUNS  */
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+    class UChildActorComponent* FPGunChildActor;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+    class UChildActorComponent* TPGunChildActor;
 
 protected:
 
@@ -62,11 +74,10 @@ protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
+    
+    void OnFire();
 
-public:
-	/** Returns CameraBoom subobject **/
-	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-	/** Returns FollowCamera subobject **/
-	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+    virtual void BeginPlay();
+
 };
 

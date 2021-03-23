@@ -8,6 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "../Weapon/Gun.h"
+#include "Engine/SkeletalMeshSocket.h"
+#include "Components/ChildActorComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AEnemy
@@ -20,6 +23,26 @@ AEnemy::AEnemy()
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
+    
+    /** FP PLAYER PARTS */
+    
+    // Create a CameraComponent
+    FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+    FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
+    FirstPersonCameraComponent->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.f)); // Position the camera
+    FirstPersonCameraComponent->bUsePawnControlRotation = true;
+
+    // Create a mesh component that will be used when being viewed from a '1st person' view (when controlling this pawn)
+    Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
+    Mesh1P->SetOnlyOwnerSee(true);
+    Mesh1P->SetupAttachment(FirstPersonCameraComponent);
+    Mesh1P->bCastDynamicShadow = false;
+    Mesh1P->CastShadow = false;
+    Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
+    Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
+    
+
+    
 
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
@@ -32,19 +55,27 @@ AEnemy::AEnemy()
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
-	// Create a camera boom (pulls in towards the player if there is a collision)
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
-	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
-
-	// Create a follow camera
-	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
-	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+    
+    FPGunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("FPGunChildActor"));
+    
+    FPGunChildActor->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+    
+    TPGunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("TPGunChildActor"));
+    
+    TPGunChildActor->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+}
+
+void AEnemy::BeginPlay()
+{
+    Super::BeginPlay();
+    
+    if (FPGunChildActor->GetChildActor())
+    {
+        AGun* Gun = Cast<AGun>(FPGunChildActor->GetChildActor());
+        Gun->AnimInstance = Mesh1P->GetAnimInstance();
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -56,6 +87,8 @@ void AEnemy::SetupPlayerInputComponent(class UInputComponent* PlayerInputCompone
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+    
+    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AEnemy::OnFire);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AEnemy::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AEnemy::MoveRight);
@@ -137,4 +170,13 @@ void AEnemy::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AEnemy::OnFire()
+{
+    if (FPGunChildActor->GetChildActor())
+    {
+        AGun* Gun = Cast<AGun>(FPGunChildActor->GetChildActor());
+        Gun->OnFire();
+    }
 }
