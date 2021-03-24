@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "Enemy.h"
+#include "GameChar.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -13,9 +13,9 @@
 #include "Components/ChildActorComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
-// AEnemy
+// AGameChar
 
-AEnemy::AEnemy()
+AGameChar::AGameChar()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -67,7 +67,7 @@ AEnemy::AEnemy()
     TPGunChildActor->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 }
 
-void AEnemy::BeginPlay()
+void AGameChar::BeginPlay()
 {
     Super::BeginPlay();
     
@@ -81,36 +81,36 @@ void AEnemy::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void AEnemy::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+void AGameChar::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
     
-    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AEnemy::OnFire);
+    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AGameChar::OnFire);
 
-	PlayerInputComponent->BindAxis("MoveForward", this, &AEnemy::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AEnemy::MoveRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &AGameChar::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AGameChar::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &AEnemy::TurnAtRate);
+	PlayerInputComponent->BindAxis("TurnRate", this, &AGameChar::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("LookUpRate", this, &AEnemy::LookUpAtRate);
+	PlayerInputComponent->BindAxis("LookUpRate", this, &AGameChar::LookUpAtRate);
 
 	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &AEnemy::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &AEnemy::TouchStopped);
+	PlayerInputComponent->BindTouch(IE_Pressed, this, &AGameChar::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Released, this, &AGameChar::TouchStopped);
 
 	// VR headset functionality
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AEnemy::OnResetVR);
+	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AGameChar::OnResetVR);
 }
 
 
-void AEnemy::OnResetVR()
+void AGameChar::OnResetVR()
 {
 	// If TP_ThirdPerson is added to a project via 'Add Feature' in the Unreal Editor the dependency on HeadMountedDisplay in TP_ThirdPerson.Build.cs is not automatically propagated
 	// and a linker error will result.
@@ -121,29 +121,29 @@ void AEnemy::OnResetVR()
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
 
-void AEnemy::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
+void AGameChar::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
 		Jump();
 }
 
-void AEnemy::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
+void AGameChar::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
 		StopJumping();
 }
 
-void AEnemy::TurnAtRate(float Rate)
+void AGameChar::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
-void AEnemy::LookUpAtRate(float Rate)
+void AGameChar::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
-void AEnemy::MoveForward(float Value)
+void AGameChar::MoveForward(float Value)
 {
 	if ((Controller != nullptr) && (Value != 0.0f))
 	{
@@ -157,7 +157,7 @@ void AEnemy::MoveForward(float Value)
 	}
 }
 
-void AEnemy::MoveRight(float Value)
+void AGameChar::MoveRight(float Value)
 {
 	if ( (Controller != nullptr) && (Value != 0.0f) )
 	{
@@ -172,7 +172,7 @@ void AEnemy::MoveRight(float Value)
 	}
 }
 
-void AEnemy::OnFire()
+void AGameChar::OnFire()
 {
     if (FPGunChildActor->GetChildActor())
     {

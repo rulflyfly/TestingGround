@@ -4,15 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Enemy.generated.h"
+#include "GameChar.generated.h"
 
 UCLASS(config=Game)
-class AEnemy : public ACharacter
+class AGameChar : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
-	AEnemy();
+	AGameChar();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
