@@ -36,10 +36,13 @@ public:
     /** GUNS  */
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-    class UChildActorComponent* FPGunChildActor;
+    class UChildActorComponent* GunChildActor;
     
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-    class UChildActorComponent* TPGunChildActor;
+    virtual void UnPossessed() override;
+    
+    /** passing through tiles */
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ground)
+    bool bIsPlayer;
 
 protected:
 
@@ -75,7 +78,8 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
     
-    void OnFire();
+    UFUNCTION(BlueprintCallable)
+    void PullTrigger();
 
     virtual void BeginPlay();
 

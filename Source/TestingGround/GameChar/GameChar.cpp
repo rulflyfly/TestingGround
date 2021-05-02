@@ -58,23 +58,35 @@ AGameChar::AGameChar()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
     
-    FPGunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("FPGunChildActor"));
+    GunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("FPGunChildActor"));
     
-    FPGunChildActor->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+
     
-    TPGunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("TPGunChildActor"));
-    
-    TPGunChildActor->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 }
 
 void AGameChar::BeginPlay()
 {
     Super::BeginPlay();
     
-    if (FPGunChildActor->GetChildActor())
+    if (GunChildActor->GetChildActor())
     {
-        AGun* Gun = Cast<AGun>(FPGunChildActor->GetChildActor());
-        Gun->AnimInstance = Mesh1P->GetAnimInstance();
+        AGun* Gun = Cast<AGun>(GunChildActor->GetChildActor());
+        Gun->AnimInstanceFP = Mesh1P->GetAnimInstance();
+        Gun->AnimInstanceTP = GetMesh()->GetAnimInstance();
+    }
+    
+    if (IsPlayerControlled())
+    {
+        GunChildActor->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+    }
+    else
+    {
+        GunChildActor->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+    }
+    
+    if (!bIsPlayer)
+    {
+        GetCapsuleComponent()->SetCollisionObjectType(ECC_GameTraceChannel4);
     }
 }
 
@@ -88,7 +100,7 @@ void AGameChar::SetupPlayerInputComponent(class UInputComponent* PlayerInputComp
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
     
-    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AGameChar::OnFire);
+    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AGameChar::PullTrigger);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AGameChar::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AGameChar::MoveRight);
@@ -172,11 +184,18 @@ void AGameChar::MoveRight(float Value)
 	}
 }
 
-void AGameChar::OnFire()
+void AGameChar::PullTrigger()
 {
-    if (FPGunChildActor->GetChildActor())
+    if (GunChildActor->GetChildActor())
     {
-        AGun* Gun = Cast<AGun>(FPGunChildActor->GetChildActor());
+        AGun* Gun = Cast<AGun>(GunChildActor->GetChildActor());
         Gun->OnFire();
     }
+}
+
+void AGameChar::UnPossessed()
+{
+    Super::UnPossessed();
+    
+    GunChildActor->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 }

@@ -13,6 +13,17 @@ class ATestingGroundGameMode : public AGameModeBase
 
 public:
 	ATestingGroundGameMode();
+    
+    UFUNCTION(BlueprintCallable)
+    void PopulateBoundsVolumePool();
+    
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Navigation Pool")
+    class UActorPool* NavPool;
+    
+protected:
+    // Called when the game starts
+    virtual void BeginPlay() override;
+    
 };
 
 

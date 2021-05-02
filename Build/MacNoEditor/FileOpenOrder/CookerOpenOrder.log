@@ -1,0 +1,576 @@
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Textures/FirstPersonCrosshair.uasset" 0
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Textures/UE4_LOGO_CARD.uasset" 1
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 2
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Textures/UE4_Mannequin_occlusion_Mobile.uasset" 3
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Textures/UE4_Mannequin__normals.uasset" 4
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Textures/UE4Man_Logo_N.uasset" 5
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 6
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 7
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 8
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Hit_React_2.uasset" 9
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Hit_React_1.uasset" 10
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/HitReactionMontage.uasset" 11
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Fire_Rifle_Ironsights.uasset" 12
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AimingOffsets/Shoot.uasset" 13
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_to_Stand_Rifle_Hip.uasset" 14
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Bwd_Rifle_Ironsights.uasset" 15
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Fire_Rifle_Hip.uasset" 16
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Hit_React_3.uasset" 17
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Death_3.uasset" 18
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Stand_to_Crouch_Rifle_Ironsights.uasset" 19
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Fire_1.uasset" 20
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Idle_Rifle_Hip_Break2.uasset" 21
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Reload_Rifle_Hip.uasset" 22
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Death_Ironsights_2.uasset" 23
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Death_2.uasset" 24
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Sprint_Fwd_Rifle.uasset" 25
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Reload_Rifle_Ironsights.uasset" 26
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Stand_to_Crouch_Rifle_Hip.uasset" 27
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Lt_Rifle_Ironsights.uasset" 28
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_to_Stand_Rifle_Ironsights.uasset" 29
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Stand_To_Prone.uasset" 30
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Aim_Space_Hip.uasset" 31
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Fwd_Rifle_Ironsights.uasset" 32
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Reload_Shotgun_Ironsights.uasset" 33
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Death_2.uasset" 34
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jump_From_Stand_Ironsights.uasset" 35
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Fire_Shotgun_Hip.uasset" 36
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Idle_Rifle_Hip_Break1.uasset" 37
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Rt_Rifle_Ironsights.uasset" 38
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Death_Ironsights_1.uasset" 39
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Reload_Shotgun.uasset" 40
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Idle.uasset" 41
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_To_Stand.uasset" 42
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Fire_Shotgun_Ironsights.uasset" 43
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Fire_2.uasset" 44
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Idle_Pistol.uasset" 45
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Equip_Rifle_Standing.uasset" 46
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Reload_Shotgun_Hip.uasset" 47
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Hit_React_4.uasset" 48
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Reload_Pistol.uasset" 49
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Idle_Rifle_Ironsights.uasset" 50
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Death_1.uasset" 51
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Prone_Reload_Rifle.uasset" 52
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Equip_Pistol_Standing.uasset" 53
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/BaseTextures/base_black_d.uasset" 54
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/BaseTextures/base_flat_n.uasset" 55
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/BaseTextures/base_gray_d.uasset" 56
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Box_D.uasset" 57
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Box_N.uasset" 58
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Dirt2_N.uasset" 59
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Box_SRM.uasset" 60
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 61
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 62
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_RGB.uasset" 63
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/BlurSampleOffsets.uasset" 64
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 65
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.uasset" 66
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.uasset" 67
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 68
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Materials/BaseMaterial/bese_material.uasset" 69
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Materials/Box.uasset" 70
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 71
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 72
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 73
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 74
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/Box2.uasset" 75
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/Material004.uasset" 76
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Masks/uploads_files_877357_c+w+h.uasset" 77
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Meshes/BaseMaterial.uasset" 78
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Meshes/CubeMaterialOverride.uasset" 79
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/MaterialBase.uasset" 80
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/black.uasset" 81
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/pink.uasset" 82
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Props/Prop_1.uasset" 83
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/PP_Pixelable.uasset" 84
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/BaseTextures/base_flat_n.uasset" 85
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/BaseTextures/base_gray_d.uasset" 86
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/BaseMaterial/bese_material.uasset" 87
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Ground_N.uasset" 88
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Ground_D.uasset" 89
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/Ground.uasset" 90
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SimpleGrassWind.uasset" 91
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/FuzzyShadingGrass.uasset" 92
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 93
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/BaseTextures/Mask1.uasset" 94
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/BaseMaterial/Flora_twoSides.uasset" 95
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass5_N.uasset" 96
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass5_D.uasset" 97
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/grass5.uasset" 98
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Meshes/grass05.uasset" 99
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass2_D.uasset" 100
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass2_N.uasset" 101
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/grass2.uasset" 102
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Meshes/grass02.uasset" 103
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Container_SRM.uasset" 104
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Container_D.uasset" 105
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Container_N.uasset" 106
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Materials/Container.uasset" 107
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/ContainerDoorL.uasset" 108
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/ContainerDoorR.uasset" 109
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/Container.uasset" 110
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/TrashCan_SRM.uasset" 111
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/TrashCan_N.uasset" 112
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/TrashCan_D.uasset" 113
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Materials/TrashCan.uasset" 114
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/Sack1.uasset" 115
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 116
+"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 117
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 118
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 119
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 120
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 121
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 122
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 123
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 124
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 125
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 126
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 127
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 128
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 129
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 130
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 131
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 132
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 133
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 134
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 135
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 136
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 137
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 138
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 139
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 140
+"../../../Engine/Content/EngineResources/Black.uasset" 141
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 142
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 143
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 144
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 145
+"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 146
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 147
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 148
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 149
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 150
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 151
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 152
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 153
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 154
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 155
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 156
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 157
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 158
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 159
+"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 160
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 161
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 162
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 163
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 164
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 165
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 166
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 167
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 168
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 169
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 170
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 171
+"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 172
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 173
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 174
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 175
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 176
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 177
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 178
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 179
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 180
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 181
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 182
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 183
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 184
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 185
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 186
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 187
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 188
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 189
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 190
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 191
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 192
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 193
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 194
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 195
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 196
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 197
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 198
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 199
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 200
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 201
+"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 202
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 203
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 204
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 205
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 206
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 207
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 208
+"../../../Engine/Content/EditorResources/S_Note.uasset" 209
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 210
+"../../../Engine/Content/EditorResources/S_Terrain.uasset" 211
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 212
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 213
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 214
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 215
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 216
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 217
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 218
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 219
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 220
+"../../../Engine/Content/BasicShapes/Cone.uasset" 221
+"../../../Engine/Content/BasicShapes/Cube.uasset" 222
+"../../../Engine/Content/BasicShapes/Plane.uasset" 223
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 224
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 225
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 226
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 227
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 228
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 229
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 230
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 231
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 232
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 233
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 234
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 235
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 236
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 237
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 238
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 239
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 240
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 241
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 242
+"../../../Engine/Content/EngineSounds/Master.uasset" 243
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 244
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 245
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 246
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 247
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 248
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 249
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 250
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 251
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 252
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 253
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 254
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 255
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 256
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 257
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 258
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 259
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 260
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 261
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 262
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 263
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 264
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 265
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 266
+"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 267
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 268
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 269
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 270
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 271
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 272
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 273
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 274
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 275
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 276
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 277
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 278
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 279
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 280
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 281
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 282
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 283
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 284
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 285
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 286
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 287
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 288
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TestingGroundGameInstance.uasset" 289
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/adayinthesky.uasset" 290
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ZillaSlabHighlight-Bold.uasset" 291
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ZillaSlabHighlight-Bold_Font.uasset" 292
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ZillaSlabHighlight-Regular.uasset" 293
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ZillaSlabHighlight-Regular_Font.uasset" 294
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/MainMenu.uasset" 295
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/shooter.uasset" 296
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/shooter_Cue.uasset" 297
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/MainMenu.umap" 298
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/CubeMaterial.uasset" 299
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/TemplateFloor.uasset" 300
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/RampMaterial.uasset" 301
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/RightArm_StaticMesh.uasset" 302
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/Ramp_StaticMesh.uasset" 303
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/Linear_Stair_StaticMesh.uasset" 304
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/LeftArm_StaticMesh.uasset" 305
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/Bump_StaticMesh.uasset" 306
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/1M_Cube_Chamfer.uasset" 307
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Geometry/1M_Cube.uasset" 308
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 309
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 310
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 311
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 312
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 313
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 314
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 315
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 316
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 317
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 318
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 319
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Maps/ThirdPersonExampleMap.umap" 320
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Audio/FirstPersonTemplateWeaponFire02.uasset" 321
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Weapons/Ka47/SK_KA47_X_Skeleton.uasset" 322
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Weapons/Ka47/SK_KA47_X_Physics.uasset" 323
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/Patterns/T_Stripes__Pattern.uasset" 324
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA74U/T_KA74U_M_MSK.uasset" 325
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA74U/T_KA74U_NRM.uasset" 326
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA74U/T_KA74U_ALB.uasset" 327
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/Master_Material/M_Weapon_Master_USE.uasset" 328
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/Ammunition/T_762x39_M_MSK.uasset" 329
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/Ammunition/T_762x39_ALB.uasset" 330
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/Ammunition/T_762x39_NRM.uasset" 331
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/Ammunition/M_762x39_Empty.uasset" 332
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA47/T_KA47_NRM.uasset" 333
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA47/T_KA47_ALB.uasset" 334
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/KA47/T_KA47_M_MSK.uasset" 335
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/Ka47/M_KA47.uasset" 336
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Weapons/Ka47/SK_KA47_X.uasset" 337
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/Rifle_color.uasset" 338
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/FireMontage.uasset" 339
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 340
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_Fire.uasset" 341
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPersonFire_Montage.uasset" 342
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Meshes/FirstPersonProjectileMaterial.uasset" 343
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Meshes/FirstPersonProjectileMesh.uasset" 344
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Weapon/MainProjectile_BP.uasset" 345
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Weapon/Gun_BP.uasset" 346
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/WinMenu.uasset" 347
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass_N.uasset" 348
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Textures/Grass_D.uasset" 349
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Materials/grass.uasset" 350
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/GrassPack/Meshes/grass01.uasset" 351
+"../../../Engine/Content/EngineResources/AICON-Red.uasset" 352
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/FractalShader/MaterialFunctions/MF_GetUV_LUT.uasset" 353
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 354
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 355
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/FractalShader/MaterialFunctions/MF_JuliaPassTrap.uasset" 356
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/FractalShader/Material/Base/M_JuliaPointTrapColor.uasset" 357
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/BarrierColor_Base.uasset" 358
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/BlockColor.uasset" 359
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/PassColor.uasset" 360
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock05/Textures/Rock05_Occlusion.uasset" 361
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock05/Textures/Rock05_Normals.uasset" 362
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock05/Textures/Rock05_Albedo.uasset" 363
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_OverrideOpacityMask.uasset" 364
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Textures/RockDetail/Rocks_DetailAlbedo.uasset" 365
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock05/Rock05_Material.uasset" 366
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock05/Rock05_High.uasset" 367
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Props/Rock_2.uasset" 368
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock17/Textures/Rock17_Occlusion.uasset" 369
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock17/Textures/Rock17_Normals.uasset" 370
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock17/Textures/Rock17_Albedo.uasset" 371
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock17/Rock17_Material.uasset" 372
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock17/Rock17_High.uasset" 373
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Props/Rock_3.uasset" 374
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Canister_SRM.uasset" 375
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Canister_D.uasset" 376
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Textures/Canister_N.uasset" 377
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Materials/Canister.uasset" 378
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/IndustryPropsPack4/Meshes/Canister1.uasset" 379
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Props/Prop_2.uasset" 380
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock01/Textures/Rock01_Occlusion.uasset" 381
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock01/Textures/Rock01_Normals.uasset" 382
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock01/Textures/Rock01_Albedo.uasset" 383
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock01/Rock01_Material.uasset" 384
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/TestingGroundPack/RockPackProV1/Rock01/Rock01_High.uasset" 385
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Props/Rock_1.uasset" 386
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/yourself.uasset" 387
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/yourself_Cue.uasset" 388
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/you.uasset" 389
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/you_Cue.uasset" 390
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/take_rest.uasset" 391
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/take_rest_Cue.uasset" 392
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/sayno.uasset" 393
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/sayno_Cue.uasset" 394
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/positive.uasset" 395
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/positive_Cue.uasset" 396
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/people.uasset" 397
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/people_Cue.uasset" 398
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/makeit.uasset" 399
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/makeit_Cue.uasset" 400
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/killing_yourself.uasset" 401
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/killing_yourself_Cue.uasset" 402
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/distraction.uasset" 403
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/distraction_Cue.uasset" 404
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/day_off.uasset" 405
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/day_off_Cue.uasset" 406
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/boundaries.uasset" 407
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/boundaries_Cue.uasset" 408
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/PauseMenu.uasset" 409
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Meshes/Shapes/SM_Totem_SlowDome.uasset" 410
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/VectorFields/Noisy_Turbulence_103.uasset" 411
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Functions/FX_EmissiveModulate.uasset" 412
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Flares/T_LDR_Flare01.uasset" 413
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/DeriveHDRfromLDR.uasset" 414
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Flares/M_LensFlareAdd.uasset" 415
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Flares/MI_LensFlareAdd_DepthFade.uasset" 416
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorToRadialValue.uasset" 417
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Smoke/T_CloudSmoke_WispInk_Chromashift_Tile.uasset" 418
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Flares/M_Flare_Procedural_Noise_Tex_Glow2.uasset" 419
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Functions/CrossTalkNextChannel.uasset" 420
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Functions/ColorTint_HQ.uasset" 421
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Water/T_Dmg_Splatter_01.uasset" 422
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Water/M_Proto_Basic_1Texture.uasset" 423
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Flares/T_FlareWide_04.uasset" 424
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Flares/M_GlowElectricFlare_Inst.uasset" 425
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Functions/FadeBasedOnViewAngle.uasset" 426
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Flares/M_PH_Orb_FlatFlare.uasset" 427
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Functions/MF_ParticleRandomSize.uasset" 428
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Sparks/T_Spark_Soft.uasset" 429
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint.uasset" 430
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint_Minion_Inst.uasset" 431
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset" 432
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Masks/T_SoftEdge_M.uasset" 433
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Tile/Energy/Plasma/T_Sparrow_Poster_Tendrils_v2_Seamless.uasset" 434
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Water/T_WaterFlow_Tiling01.uasset" 435
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Orb_Color.uasset" 436
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Coords/T_Turbulence_AdditiveWarp_Linear.uasset" 437
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Smoke/T_MinionSmokeMask_Test.uasset" 438
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Textures/Smoke/T_MinionSmokeTile.uasset" 439
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Materials/Smoke/M_InvisSmoke_MasterAdditiveWarp_Emissive.uasset" 440
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/ParagonMinions/FX/Particles/PlayerBuffs/P_CarriedBuff_GroundPickup_Blue.uasset" 441
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/IsWinthinRange.uasset" 442
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/PatrolData.uasset" 443
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/Shoot.uasset" 444
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/Shooting.uasset" 445
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/FindNextWaypoint.uasset" 446
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/PatrolBehaviour.uasset" 447
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/ClearLastSeenLocation.uasset" 448
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/SuspicionBehaviour.uasset" 449
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/UpdateLastSeenLocation.uasset" 450
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/GardBehaviour.uasset" 451
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/NPC/Behaviour/NPC_AI_BP.uasset" 452
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/important.uasset" 453
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Sound/important_Cue.uasset" 454
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Textures/T_Water2_N.uasset" 455
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/M_Water.uasset" 456
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/Materials/M_Water_Inst.uasset" 457
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Meshes/Shapes/SM_Totem_Bomb_Swirls.uasset" 458
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Meshes/Shapes/SM_Sphere_Scale_Unit_100.uasset" 459
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/VectorFields/Noisy_Turbulence_103.uasset" 460
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/FX_EmissiveModulate.uasset" 461
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Flares/T_Flare_Spikeball.uasset" 462
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Flares/M_ArrowFlare.uasset" 463
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Flares/M_Tomahawk_Glow.uasset" 464
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Flares/MI_Prime_Basic_Glow.uasset" 465
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/MF_ParticleRandomSize.uasset" 466
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Sparks/T_Spark_Soft.uasset" 467
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint.uasset" 468
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint_Minion_Inst.uasset" 469
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/MF_DitheredRefraction.uasset" 470
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Masks/T_NoisyRamp.uasset" 471
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Masks/T_SoftEdge_M.uasset" 472
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Masks/T_GradientLaserSoft_M.uasset" 473
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Tile/Noise/T_SmokeRend_N.uasset" 474
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Energy/Plasma/T_Turbulence_Seamless.uasset" 475
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_TotemBombSwirls.uasset" 476
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/FluidPatterns/T_FluidTile01_DA.uasset" 477
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Tile/Noise/T_Smooth_tile.uasset" 478
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Energy/Plasma/T_Plasma_Aurora_Seamless.uasset" 479
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Energy/M_Energy_Sphere_V02.uasset" 480
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/MF_SmoothStep.uasset" 481
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset" 482
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset" 483
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/MF_RandomSubUV_GPUSprites.uasset" 484
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset" 485
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 486
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Energy/Electricity/T_lightning_burst_pack.uasset" 487
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Functions/MF_ColorMaskPicker.uasset" 488
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset" 489
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Water/T_waterSplash.uasset" 490
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Water/T_Water_N1.uasset" 491
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Water/M_LiquidSplash_SubUV.uasset" 492
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Water/M_LiquidSplash_SubUV_Inst5.uasset" 493
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Water/MI_Prime_Energy_Splash.uasset" 494
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Textures/Smoke/Inky/T_ShadowSwirls_v2B.uasset" 495
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Materials/Smoke/M_Prime_ShadowSmoke.uasset" 496
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/ParagonMinions/FX/Particles/Minions/Prime_Helix/Abilities/PrimaryAttack/FX/Helix_PrimaryImpact.uasset" 497
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jog_Rt_Rifle.uasset" 498
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jog_Lt_Rifle.uasset" 499
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jog_Fwd_Rifle.uasset" 500
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jog_Bwd_Rifle.uasset" 501
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/BlendSpaces/BS_Jog.uasset" 502
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Rt_Rifle_Hip.uasset" 503
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Lt_Rifle_Hip.uasset" 504
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Fwd_Rifle_Hip.uasset" 505
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Walk_Bwd_Rifle_Hip.uasset" 506
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/BlendSpaces/BS_CrouchWalk.uasset" 507
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Walk_Rt_Rifle_Ironsights.uasset" 508
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Walk_Lt_Rifle_Ironsights.uasset" 509
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Walk_Fwd_Rifle_Ironsights.uasset" 510
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Walk_Bwd_Rifle_Ironsights.uasset" 511
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/BlendSpaces/BS_AimingWalk.uasset" 512
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jump_From_Stand.uasset" 513
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Jump_From_Jog.uasset" 514
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Idle_Rifle_Ironsights.uasset" 515
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Idle_Rifle_Hip.uasset" 516
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Death_1.uasset" 517
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Crouch_Idle_Rifle_Hip.uasset" 518
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AnimationClips/Aim_Space_Ironsights.uasset" 519
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AimingOffsets/AimUP.uasset" 520
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AimingOffsets/AimDown.uasset" 521
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AimingOffsets/AimCenter.uasset" 522
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/AimingOffsets/Aim.uasset" 523
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Animations/UE4ASP_HeroTPP_AnimBlueprint.uasset" 524
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 525
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 526
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 527
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 528
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 529
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 530
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 531
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 532
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 533
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AO.uasset" 534
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 535
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 536
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/M_UE4Man_Body.uasset" 537
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Materials/M_UE4Man_ChestLogo.uasset" 538
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TP/Character/Mesh/SK_Mannequin.uasset" 539
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_Idle.uasset" 540
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_JumpLoop.uasset" 541
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_Run.uasset" 542
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_JumpEnd.uasset" 543
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_JumpStart.uasset" 544
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Animations/FirstPerson_AnimBP.uasset" 545
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 546
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 547
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 548
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 549
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 550
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 551
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 552
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 553
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Textures/UE4_Mannequin__normals.uasset" 554
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Textures/UE4_LOGO_CARD.uasset" 555
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 556
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 557
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Materials/M_UE4Man_Body.uasset" 558
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Character/Mesh/SK_Mannequin_Arms.uasset" 559
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/GameChar/GameChar_BP.uasset" 560
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/Stats.uasset" 561
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/NewTegomin-Regular.uasset" 562
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Assets/NewTegomin-Regular_Font.uasset" 563
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/Intro.uasset" 564
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Intro/TableRows.uasset" 565
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Intro/IntroLines.uasset" 566
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/TestingGroundHUD_BP.uasset" 567
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/HUD/GameOver.uasset" 568
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/GameChar/PlayerController_BP.uasset" 569
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/TestingGroundGameMode_BP.uasset" 570
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/Terrain/Tile_BP.uasset" 571
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Maps/FirstPersonExampleMap_BuiltData.uasset" 572
+"../../../../../../Nastya/Documents/Unreal Projects/TestingGround/Content/FP/Maps/FirstPersonExampleMap.umap" 573
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 574
+"../../../Engine/Content/Maps/Entry.umap" 575

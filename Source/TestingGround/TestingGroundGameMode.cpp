@@ -3,6 +3,9 @@
 #include "TestingGroundGameMode.h"
 #include "TestingGroundHUD.h"
 #include "UObject/ConstructorHelpers.h"
+#include "EngineUtils.h"
+#include "NavMesh/NavMeshBoundsVolume.h"
+#include "ActorPool.h"
 
 ATestingGroundGameMode::ATestingGroundGameMode()
 	: Super()
@@ -13,4 +16,24 @@ ATestingGroundGameMode::ATestingGroundGameMode()
 
 	// use our custom HUD class
 	HUDClass = ATestingGroundHUD::StaticClass();
+    
+    NavPool = CreateDefaultSubobject<UActorPool>(TEXT("NavPool"));
+}
+
+void ATestingGroundGameMode::BeginPlay()
+{
+    Super::BeginPlay();
+    
+    //PopulateBoundsVolumePool();
+}
+
+void ATestingGroundGameMode::PopulateBoundsVolumePool()
+{
+    auto VolumeIterator = TActorIterator<ANavMeshBoundsVolume>(GetWorld());
+    while (VolumeIterator)
+    {
+        NavPool->Add(*VolumeIterator);
+    
+        ++VolumeIterator;
+    }
 }
